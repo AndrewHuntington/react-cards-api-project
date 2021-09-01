@@ -1,5 +1,5 @@
 import CardDisplay from "./CardDisplay";
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components/macro";
 
 const GlobalStyle = createGlobalStyle`
   body {
