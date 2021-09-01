@@ -6,13 +6,16 @@ import Card from "./Card";
 const Button = styled.button`
   background-color: rgba(0, 0, 0, 0.9);
   color: rgb(255, 255, 255);
-  padding: 1rem;
+  padding: 0.8rem 2rem;
   border-radius: 5%;
   border: 0;
 
   :hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 16px 1px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(255, 255, 255, 0.3);
   }
 `;
 
