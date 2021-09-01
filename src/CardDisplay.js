@@ -1,6 +1,20 @@
 import React, { Component } from "react";
 import axios from "axios";
+import styled from "styled-components";
 import Card from "./Card";
+
+const Button = styled.button`
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 5%;
+  border: 0;
+
+  :hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+`;
 
 export default class CardDisplay extends Component {
   API_URL = "https://deckofcardsapi.com/api/deck";
@@ -59,7 +73,7 @@ export default class CardDisplay extends Component {
   render() {
     return (
       <div className="CardDisplay">
-        <button onClick={this.handleClick}>HIT ME!</button>
+        <Button onClick={this.handleClick}>HIT ME!</Button>
         <Card
           img={this.state.img}
           val={this.state.value}
