@@ -36,7 +36,7 @@ To Visit App:
 
 # Reflection
 
-This is a project that was built for Colt Steele's excellent [The Modern React Bootcamp](https://www.udemy.com/course/modern-react-bootcamp) on Udemy. The main purpose of this project is the solidify my understanding of the React component lifecycle primarily by using componentDidMount to fetch data from an API. Secondary objectives were to review how to retrieve data using asynchronous JavaScript and to put into use all other React concepts learned up until now.
+This is a project that was built for Colt Steele's excellent [The Modern React Bootcamp](https://www.udemy.com/course/modern-react-bootcamp) on Udemy. The main purpose of this project is to solidify my understanding of the React component lifecycle primarily by using componentDidMount to fetch data from an API. Secondary objectives were to review how to retrieve data using asynchronous JavaScript and to put into use all other React concepts learned up until now.
 
 # Additional Acknowledgements
 
